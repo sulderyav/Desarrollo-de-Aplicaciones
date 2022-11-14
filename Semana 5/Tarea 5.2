@@ -4,50 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-    <h1>Combinadores</h1>
-    <div>
-        <h2>Hermano adyacente o cercano</h2>
-        <p>Hola soy un hijo de div</p>
+    <header>
+        <img src="./assets/images/office-820390_640.jpg" alt="control" width="250" />
+<div class="h1">
+    <h1>Mi portafolio</h1>
+</div>
+        <nav>
+            <ul>
+                <div class="color">
+                <li><a href=""> Sobre mi</a></li>
+                <li><a href=""> Servicios</a></li>
+                <li><a href=""> Habilidades</a></li>
+                <li><a href=""> Proyectos</a></li>  
+                <li></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="Saber_más">
+        <h3>Sobre mí</h3>
         <div>
-            <p>Hola soy otro hijo de div</p>
+            <article>
+                <figure>
+                    <img src="./assets/images/programacion-2-e1551291144973.jpg" alt="Sobre mi" width="250">
+                </figure>
+                Mi nombre es Suldery Arellano,tengo 20 años, soy estudiante de segundo nivel de la carrera de Desarrollo de Aplicaciones Web. Me gusta el diseño de Interfaces y Experiencia de Usuario</article>
         </div>
     </div>
-    <p>Hola soy otra p</p>
-    <p>Hola soy una nueva p</p>
-    <div>
-        <p>Tambien soy hermano de este div</p>
-    </div>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <h1>Combinadores</h1>
-    <div>
-        <h2>Hermano adyacente o cercano</h2>
-        <p>Hola soy un hijo de div</p>
+        <h3>Habilidades</h3> 
         <div>
-            <p>Hola soy otro hijo de div</p>
+            <article>
+                <figure>
+                    <img src="./assets/images/shutterstock_567642715-e1538077965623.jpg" alt="control" width="250">
+                </figure>
+                <div class="Habilidades">
+                <Ul>
+                    <li><a href="">Inglés </a></li>
+                    <li><a href="">Marketing</a></li>
+                    <li><a href="">Diseño</a></li>
+                </Ul>
+            </div>
+            </article>
         </div>
-    </div>
-    <p>Hola soy otra p</p>
-    <p>Hola soy una nueva p</p>
-    <div>
-        <p>Tambien soy hermano de este div</p>
-    </div>
+    </section>
 </body>
-</html>
+</html> 
+style.css
+.h1{
+    background-color: pink;
+    font-size: 1em;
+}
+.Saber_más{
+    background-color: blueviolet;
+    font-size: 1em;
+    
+}
+.Habilidades{
+    background-color: pink;
+    font-size: 1em;
+}
+.a{
+    font-weight: bold;
+    background-color: black;
+}
+.color > li{
+    font-weight: bold;
+    color: blue;
+    background-color: bisque;
+}
